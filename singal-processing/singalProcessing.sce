@@ -5,6 +5,7 @@ function [x] = multiply(a, b)
     end
 endfunction
 
+
 t =0:0.1:20;
 unit_step = ones(1, 201)
 ramp = 0.1 * t;                      //k = 0.1 
@@ -66,3 +67,4 @@ xlabel("t", "fontsize", 2);
 ylabel("x(t)", "fontsize", 2);
 legend("r(t) + sin(t) + cos(t)", "sin(t) - cos(t) + r(t)", "sin(t) * cos(t)");
 */
+
